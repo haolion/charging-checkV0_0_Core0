@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>README</title>
+		<style type="text/css">
+			body {
+				font: 12px Arial, Helvetica, Verdana;
+			}
+		</style>
+	</head>
+	<body>
+	
+		<div style="background:#003366;">&nbsp;</div>
+
+		<h2>The Dual Core: One Application Per Core Approach to Programming the ADSP-BF609</h2>
+
+		<p>
+		You have created a project that uses the dual core, one application per core programming 
+		model for the ADSP-BF609 processor. In this approach, each core is treated as a
+		separate processor, and each project is built individually. Effectively, two
+		single-core applications are built independently, and run in parallel on the
+		processor. The shared memory areas, both internal and external, are left to the
+		developer to arrange for shared, serializable access from each of the cores.
+		</p>
+
+		<p>
+		If you selected the 'Add template code to the application' option in the
+		Project Wizard, your project will contain template code to help you get
+		started, including a 'main' function for both cores. If you did not
+		select the option, you will need to declare your own 'main' functions. A 'main'
+		function must be declared for both cores.
+		</p>
+
+		<p>
+		To get started with your application, begin adding your source code to the
+		'main' function in both projects. If you are defining your own, you must
+		include a call to the 'adi_core_1_enable()' function in your Core-0 project.
+		This function allows Core-0 to enable Core-1, and is declared in ccblkfn.h.
+		If you selected the 'Add template code to the application' option this function call
+		is automatically added to your 'main' functions in each project.
+		</p>
+
+		<p>
+		For more information regarding programming for the ADSP-BF609, refer to the
+		CrossCore Embedded Studio C/C++ Compiler and Library Manual for Blackfin 
+		Processors at the following URL:
+		</p>
+		
+		<p>
+		<a href="http://www.analog.com/processors/blackfin/technicalLibrary/manuals">
+		http://www.analog.com/processors/blackfin/technicalLibrary/manuals</a>
+		</p>
+		
+		<p>
+		Appendix A contains more information specifically targeted at programming
+		multicore projects.
+		</p>
+	</body>
+</html>
+

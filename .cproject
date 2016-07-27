@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="blackfin.toolchain.configuration.debug.902985531">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="blackfin.toolchain.configuration.debug.902985531" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<macros>
+					<stringMacro name="mcapi-version" type="VALUE_TEXT" value="2.15"/>
+					<stringMacro name="acm-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="uclib-name" type="VALUE_TEXT" value="uC-LIB for Blackfin"/>
+					<stringMacro name="uclib-ucos3-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="rtos-osal-version" type="VALUE_TEXT" value="1.2.3"/>
+					<stringMacro name="rsi-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="twi-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="uclib-ucfs-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="uccpu-version" type="VALUE_TEXT" value="1.30.01"/>
+					<stringMacro name="ppi-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="rtos-name" type="VALUE_TEXT" value="uCOS-III for Blackfin"/>
+					<stringMacro name="crc-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="uclib-ucusbh-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="ctmr-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="usb-device-device-driver-version" type="VALUE_TEXT" value="1.1"/>
+					<stringMacro name="uclib-ucusbd-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="pwm-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="uclib-version" type="VALUE_TEXT" value="1.38.00"/>
+					<stringMacro name="ucos3-version" type="VALUE_TEXT" value="3.04.04"/>
+					<stringMacro name="ethernet-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="component-type" type="VALUE_TEXT" value="RTOS"/>
+					<stringMacro name="spi-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="wdt-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="uccpu-ucfs-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="uccpu-ucos3-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="stdio-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="tru-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="usb-host-device-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="sport-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="rtos-version" type="VALUE_TEXT" value="1.1.0"/>
+					<stringMacro name="uart-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="rtos" type="VALUE_TEXT" value="uCOS-III"/>
+					<stringMacro name="uccpu-name" type="VALUE_TEXT" value="uC-CPU for Blackfin"/>
+					<stringMacro name="pvp-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="counter-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="rtos-vendor" type="VALUE_TEXT" value="Analog Devices, Inc."/>
+					<stringMacro name="vss-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="dma-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="uccpu-ucos2-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="uclib-vendor" type="VALUE_TEXT" value="Analog Devices, Inc."/>
+					<stringMacro name="uccpu-ucusbd-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="pixc-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="uclib-ucos2-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="uccpu-ucusbh-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="pwr-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="gpio-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="uccpu-vendor" type="VALUE_TEXT" value="Analog Devices, Inc."/>
+					<stringMacro name="linkport-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="tmr-service-version" type="VALUE_TEXT" value="1.0"/>
+				</macros>
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.analog.crosscore.managedbuilder.core.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="ldr" artifactName="${ProjName}" buildArtefactType="com.analog.crosscore.managedbuilder.core.buildArtefactType.ldr" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.analog.crosscore.managedbuilder.core.buildArtefactType.ldr,com.analog.crosscore.managedbuilder.buildType=com.analog.crosscore.managedbuilder.buildType.debug" cleanCommand="clean" description="" id="blackfin.toolchain.configuration.debug.902985531" name="Debug" parent="blackfin.toolchain.configuration.debug" postannouncebuildStep="cldp -proc ADSP-BF609 -emu 1000 -driver &quot;D:\bf609_pc28f128p33_dpia1.dxe&quot; -cmd info -cmd prog -erase affected -format bin -file  &quot;E:\mydot\mydot\my_code\charging-checkV0_0_Core0\Debug\charging-checkV0_0_Core0.ldr&quot;" postbuildStep="">
+					<folderInfo id="blackfin.toolchain.configuration.debug.902985531." name="/" resourcePath="">
+						<toolChain id="blackfin.toolchain.debug.1534110791" isAbstract="false" name="CrossCore Blackfin Toolchain" superClass="blackfin.toolchain" targetTool="blackfin.toolchain.loader">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="blackfin.platform.1999372419" name="CrossCore Blackfin Target Platform" osList="all" superClass="blackfin.platform"/>
+							<builder buildPath="${workspace_loc:/charging-checkV0_0_Core0/Debug}" id="blackfin.toolchain.builder.1757432135" keepEnvironmentInBuildfile="false" name="CrossCore Blackfin Builder" superClass="blackfin.toolchain.builder"/>
+							<tool id="blackfin.toolchain.assembler.744594742" name="CrossCore Blackfin Assembler" superClass="blackfin.toolchain.assembler">
+								<option id="assembler.option.debugcode.1616286925" name="Generate debug information (-g)" superClass="assembler.option.debugcode"/>
+								<option id="assembler.option.proc.1827324737" name="-proc" superClass="assembler.option.proc" value=" ADSP-BF609" valueType="string"/>
+								<option id="assembler.option.sirevision.2065546481" name="-si-revision" superClass="assembler.option.sirevision" value=" 0.2" valueType="string"/>
+								<option id="assembler.option.preprocessdefs.2003101348" name="Preprocessor definitions (-D):" superClass="assembler.option.preprocessdefs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="CORE0"/>
+									<listOptionValue builtIn="false" value="_DEBUG"/>
+									<listOptionValue builtIn="false" value="ADI_MCAPI"/>
+									<listOptionValue builtIn="false" value="ADI_UCOS3_PRODUCT"/>
+									<listOptionValue builtIn="false" value="ADI_USE_UCOS3_SOURCE"/>
+								</option>
+								<option id="assembler.option.additionaldirectories.45072086" name="Additional include directories (-I):" superClass="assembler.option.additionaldirectories" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/system}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uC-Common/GeneratedSources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uC-CPU/GeneratedSources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCCPU_1_1_0_LOC}/common/uC-CPU&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uC-LIB/GeneratedSources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCLIB_1_1_0_LOC}/common/uC-LIB&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCCPU_1_1_0_LOC}/Blackfin/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCOS3_1_1_0_LOC}/Blackfin/uCOS-III/Ports&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uCOS-III/Cfg&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uCOS-III/GeneratedSources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCOS3_1_1_0_LOC}/common/uCOS-III&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCOS3_1_1_0_LOC}/common/uCOS-III/Source&quot;"/>
+								</option>
+								<option id="assembler.option.threads.611767102" name="-D_ADI_THREADS" superClass="assembler.option.threads" value="true" valueType="boolean"/>
+								<inputType id="assembler.input.247288404" name="Assembler Source" superClass="assembler.input"/>
+							</tool>
+							<tool id="blackfin.toolchain.compiler.129639650" name="CrossCore Blackfin C/C++ Compiler" superClass="blackfin.toolchain.compiler">
+								<option id="compiler.option.optimization.1368364007" name="Enable optimization (-O)" superClass="compiler.option.optimization"/>
+								<option id="compiler.option.debugcode.1918682493" name="Generate debug information (-g)" superClass="compiler.option.debugcode"/>
+								<option id="compiler.option.proc.1732313110" name="-proc" superClass="compiler.option.proc" value=" ADSP-BF609" valueType="string"/>
+								<option id="compiler.option.sirevision.927186448" name="-si-revision" superClass="compiler.option.sirevision" value=" 0.2" valueType="string"/>
+								<option id="compiler.option.preprocessdefs.1002696242" name="Preprocessor definitions (-D):" superClass="compiler.option.preprocessdefs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="CORE0"/>
+									<listOptionValue builtIn="false" value="_DEBUG"/>
+									<listOptionValue builtIn="false" value="ADI_MCAPI"/>
+									<listOptionValue builtIn="false" value="ADI_UCOS3_PRODUCT"/>
+									<listOptionValue builtIn="false" value="ADI_USE_UCOS3_SOURCE"/>
+								</option>
+								<option id="compiler.option.additionaldirectories.1783618381" name="Additional include directories (-I):" superClass="compiler.option.additionaldirectories" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/system}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uC-Common/GeneratedSources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uC-CPU/GeneratedSources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCCPU_1_1_0_LOC}/common/uC-CPU&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uC-LIB/GeneratedSources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCLIB_1_1_0_LOC}/common/uC-LIB&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCCPU_1_1_0_LOC}/Blackfin/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCOS3_1_1_0_LOC}/Blackfin/uCOS-III/Ports&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uCOS-III/Cfg&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uCOS-III/GeneratedSources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCOS3_1_1_0_LOC}/common/uCOS-III&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCOS3_1_1_0_LOC}/common/uCOS-III/Source&quot;"/>
+								</option>
+								<option id="compiler.option.threads.773530431" name="Enable toolchain RTOS support (-threads)" superClass="compiler.option.threads" value="true" valueType="boolean"/>
+								<inputType id="compiler.inputType.134432297" name="C/C++ Source" superClass="compiler.inputType"/>
+							</tool>
+							<tool id="blackfin.toolchain.linker.566999343" name="CrossCore Blackfin Linker" superClass="blackfin.toolchain.linker">
+								<option id="linker.option.individmap.2030589584" name="Individually map functions and data items (-ip)" superClass="linker.option.individmap" value="false" valueType="boolean"/>
+								<option id="linker.option.eliminateunused.1980247182" name="Eliminate unused objects (-e)" superClass="linker.option.eliminateunused" value="true" valueType="boolean"/>
+								<option id="linker.option.usedbglib.1690648239" name="Use Debug System libraries (-add-debug-libpaths)" superClass="linker.option.usedbglib"/>
+								<option id="linker.option.proc.1519129465" name="-proc" superClass="linker.option.proc" value=" ADSP-BF609" valueType="string"/>
+								<option id="linker.option.sirevision.595427066" name="-si-revision" superClass="linker.option.sirevision" value=" 0.2" valueType="string"/>
+								<option id="linker.option.preprocessdefs.302920172" name="Preprocessor definitions (-MD)" superClass="linker.option.preprocessdefs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="CORE0"/>
+									<listOptionValue builtIn="false" value="DEBUG"/>
+									<listOptionValue builtIn="false" value="ADI_MCAPI"/>
+									<listOptionValue builtIn="false" value="_ADI_THREADS"/>
+								</option>
+								<option id="linker.option.ldfprocessing.ldffile.1917103563" name="Custom LDF (-T)" superClass="linker.option.ldfprocessing.ldffile" value="&quot;${ProjDirPath}/system/startup_ldf/app.ldf&quot;" valueType="string"/>
+								<option id="linker.option.srchdir.1444578627" name="Library search directories (-L):" superClass="linker.option.srchdir" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${OutDir}/system/startup_ldf&quot;"/>
+								</option>
+								<option id="linker.option.component.149063446" name="-component" superClass="linker.option.component" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCLIB_1_1_0_LOC}/libraries.xml&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCOS3_1_1_0_LOC}/libraries.xml&quot;"/>
+								</option>
+								<option id="blackfin.linker.option.additionaloptions.907556291" name="Additional options for the linker:" superClass="blackfin.linker.option.additionaloptions" valueType="stringList">
+									<listOptionValue builtIn="false" value="-keep _OSDbg_SchedRoundRobinEn"/>
+									<listOptionValue builtIn="false" value="-keep _OSDbg_VersionNbr"/>
+									<listOptionValue builtIn="false" value="-keep _OSFlagDbgListPtr"/>
+									<listOptionValue builtIn="false" value="-keep _OSMemDbgListPtr"/>
+									<listOptionValue builtIn="false" value="-keep _OSMutexDbgListPtr"/>
+									<listOptionValue builtIn="false" value="-keep _OSQDbgListPtr"/>
+									<listOptionValue builtIn="false" value="-keep _OSRunning"/>
+									<listOptionValue builtIn="false" value="-keep _OSSchedLockNestingCtr"/>
+									<listOptionValue builtIn="false" value="-keep _OSSemDbgListPtr"/>
+									<listOptionValue builtIn="false" value="-keep _OSTaskDbgListPtr"/>
+									<listOptionValue builtIn="false" value="-keep _OSTickCtr"/>
+									<listOptionValue builtIn="false" value="libosal_ucos3.dlb"/>
+								</option>
+								<option id="linker.option.threadsafelibraries.982384998" name="Link against thread-safe run-time libraries (-threads)" superClass="linker.option.threadsafelibraries" value="true" valueType="boolean"/>
+								<option id="blackfin.linker.option.memusage.412558247" name="Memory Usage" superClass="blackfin.linker.option.memusage" value="blackfin.linker.option.memusage.enumerated.sramandsdram" valueType="enumerated"/>
+								<option id="blackfin.linker.option.utility_rom.382520186" name="Utility ROM" superClass="blackfin.linker.option.utility_rom" value="blackfin.linker.option.utility_rom.enumerated.automatic" valueType="enumerated"/>
+								<inputType id="linker.doj.input.995178241" name="Object Files" superClass="linker.doj.input"/>
+							</tool>
+							<tool id="blackfin.toolchain.archiver.1059674809" name="CrossCore Blackfin Archiver" superClass="blackfin.toolchain.archiver">
+								<option id="archiver.option.proc.800713306" name="-proc" superClass="archiver.option.proc" value=" ADSP-BF609" valueType="string"/>
+								<option id="archiver.option.sirevision.799457337" name="-si-revision" superClass="archiver.option.sirevision" value=" 0.2" valueType="string"/>
+							</tool>
+							<tool id="blackfin.toolchain.loader.2040695303" name="CrossCore Blackfin Loader" superClass="blackfin.toolchain.loader">
+								<option id="loader.option.proc.1121926093" name="-proc" superClass="loader.option.proc" value=" ADSP-BF609" valueType="string"/>
+								<option id="loader.option.sirevision.1119256762" name="-si-revision" superClass="loader.option.sirevision" value=" 0.2" valueType="string"/>
+								<option id="blackfin.loader.option.enumerated.bootmode.1023141870" name="Boot mode (-b)" superClass="blackfin.loader.option.enumerated.bootmode" value="blackfin.loader.option.boot.enumerated.memory" valueType="enumerated"/>
+								<option id="blackfin.loader.option.enumerated.progflag.759946575" name="Programmable flag" superClass="blackfin.loader.option.enumerated.progflag"/>
+								<option id="blackfin.loader.option.initfile.988445706" name="Initialization file (-init)" superClass="blackfin.loader.option.initfile" value="C:\Analog Devices\CrossCore Embedded Studio 1.1.1\Blackfin\ldr\BF609_init_v01.dxe" valueType="string"/>
+								<option id="blackfin.loader.option.bcode.675689081" name="Boot code (-bcode)" superClass="blackfin.loader.option.bcode" value="0x06" valueType="string"/>
+								<option id="blackfin.loader.option.enumerated.width.2128651039" name="Output width (-width)" superClass="blackfin.loader.option.enumerated.width" value="blackfin.loader.option.width.enumerated.sixteen" valueType="enumerated"/>
+								<option id="blackfin.loader.option.enumerated.bootformat.1993959512" name="Boot format (-f)" superClass="blackfin.loader.option.enumerated.bootformat" value="blackfin.loader.option.format.enumerated.hex" valueType="enumerated"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="system|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="system"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="blackfin.toolchain.configuration.release.303135791">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="blackfin.toolchain.configuration.release.303135791" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<macros>
+					<stringMacro name="mcapi-version" type="VALUE_TEXT" value="2.15"/>
+					<stringMacro name="acm-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="uclib-name" type="VALUE_TEXT" value="uC-LIB for Blackfin"/>
+					<stringMacro name="uclib-ucos3-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="rtos-osal-version" type="VALUE_TEXT" value="1.2.3"/>
+					<stringMacro name="rsi-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="twi-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="uclib-ucfs-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="uccpu-version" type="VALUE_TEXT" value="1.30.01"/>
+					<stringMacro name="ppi-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="rtos-name" type="VALUE_TEXT" value="uCOS-III for Blackfin"/>
+					<stringMacro name="crc-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="uclib-ucusbh-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="ctmr-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="usb-device-device-driver-version" type="VALUE_TEXT" value="1.1"/>
+					<stringMacro name="uclib-ucusbd-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="pwm-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="uclib-version" type="VALUE_TEXT" value="1.38.00"/>
+					<stringMacro name="ucos3-version" type="VALUE_TEXT" value="3.04.04"/>
+					<stringMacro name="ethernet-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="component-type" type="VALUE_TEXT" value="RTOS"/>
+					<stringMacro name="spi-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="wdt-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="uccpu-ucfs-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="uccpu-ucos3-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="stdio-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="tru-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="usb-host-device-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="sport-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="rtos-version" type="VALUE_TEXT" value="1.1.0"/>
+					<stringMacro name="uart-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="rtos" type="VALUE_TEXT" value="uCOS-III"/>
+					<stringMacro name="uccpu-name" type="VALUE_TEXT" value="uC-CPU for Blackfin"/>
+					<stringMacro name="pvp-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="counter-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="rtos-vendor" type="VALUE_TEXT" value="Analog Devices, Inc."/>
+					<stringMacro name="vss-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="dma-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="uccpu-ucos2-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="uclib-vendor" type="VALUE_TEXT" value="Analog Devices, Inc."/>
+					<stringMacro name="uccpu-ucusbd-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="pixc-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="uclib-ucos2-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="uccpu-ucusbh-compatibility" type="VALUE_TEXT" value="1"/>
+					<stringMacro name="pwr-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="gpio-service-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="uccpu-vendor" type="VALUE_TEXT" value="Analog Devices, Inc."/>
+					<stringMacro name="linkport-driver-version" type="VALUE_TEXT" value="1.0"/>
+					<stringMacro name="tmr-service-version" type="VALUE_TEXT" value="1.0"/>
+				</macros>
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.analog.crosscore.managedbuilder.core.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="ldr" artifactName="${ProjName}" buildArtefactType="com.analog.crosscore.managedbuilder.core.buildArtefactType.ldr" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.analog.crosscore.managedbuilder.core.buildArtefactType.ldr,com.analog.crosscore.managedbuilder.buildType=com.analog.crosscore.managedbuilder.buildType.release" cleanCommand="clean" description="" id="blackfin.toolchain.configuration.release.303135791" name="Release" parent="blackfin.toolchain.configuration.release">
+					<folderInfo id="blackfin.toolchain.configuration.release.303135791." name="/" resourcePath="">
+						<toolChain id="blackfin.toolchain.release.1042041979" isAbstract="false" name="CrossCore Blackfin Toolchain" superClass="blackfin.toolchain" targetTool="blackfin.toolchain.loader">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="blackfin.platform.1120323774" name="CrossCore Blackfin Target Platform" osList="all" superClass="blackfin.platform"/>
+							<builder buildPath="${workspace_loc:/charging-checkV0_0_Core0/Release}" id="blackfin.toolchain.builder.530002648" keepEnvironmentInBuildfile="false" name="CrossCore Blackfin Builder" superClass="blackfin.toolchain.builder"/>
+							<tool id="blackfin.toolchain.assembler.1709484586" name="CrossCore Blackfin Assembler" superClass="blackfin.toolchain.assembler">
+								<option id="assembler.option.debugcode.259971475" name="Generate debug information (-g)" superClass="assembler.option.debugcode" value="false" valueType="boolean"/>
+								<option id="assembler.option.proc.1886511400" name="-proc" superClass="assembler.option.proc" value=" ADSP-BF609" valueType="string"/>
+								<option id="assembler.option.sirevision.1651107897" name="-si-revision" superClass="assembler.option.sirevision" value=" 0.2" valueType="string"/>
+								<option id="assembler.option.preprocessdefs.407594398" name="Preprocessor definitions (-D):" superClass="assembler.option.preprocessdefs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="CORE0"/>
+									<listOptionValue builtIn="false" value="NDEBUG"/>
+									<listOptionValue builtIn="false" value="ADI_MCAPI"/>
+									<listOptionValue builtIn="false" value="ADI_UCOS3_PRODUCT"/>
+									<listOptionValue builtIn="false" value="ADI_USE_UCOS3_SOURCE"/>
+								</option>
+								<option id="assembler.option.additionaldirectories.1245153207" name="Additional include directories (-I):" superClass="assembler.option.additionaldirectories" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/system}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uC-Common/GeneratedSources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uC-CPU/GeneratedSources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCCPU_1_1_0_LOC}/common/uC-CPU&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uC-LIB/GeneratedSources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCLIB_1_1_0_LOC}/common/uC-LIB&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCCPU_1_1_0_LOC}/Blackfin/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCOS3_1_1_0_LOC}/Blackfin/uCOS-III/Ports&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uCOS-III/Cfg&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uCOS-III/GeneratedSources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCOS3_1_1_0_LOC}/common/uCOS-III&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCOS3_1_1_0_LOC}/common/uCOS-III/Source&quot;"/>
+								</option>
+								<option id="assembler.option.threads.1303120435" name="-D_ADI_THREADS" superClass="assembler.option.threads" value="true" valueType="boolean"/>
+								<inputType id="assembler.input.1538238112" name="Assembler Source" superClass="assembler.input"/>
+							</tool>
+							<tool id="blackfin.toolchain.compiler.1184771881" name="CrossCore Blackfin C/C++ Compiler" superClass="blackfin.toolchain.compiler">
+								<option id="compiler.option.optimization.1916437886" name="Enable optimization (-O)" superClass="compiler.option.optimization" value="true" valueType="boolean"/>
+								<option id="compiler.option.debugcode.480816412" name="Generate debug information (-g)" superClass="compiler.option.debugcode" value="false" valueType="boolean"/>
+								<option id="compiler.option.proc.1593429023" name="-proc" superClass="compiler.option.proc" value=" ADSP-BF609" valueType="string"/>
+								<option id="compiler.option.sirevision.393107708" name="-si-revision" superClass="compiler.option.sirevision" value=" 0.2" valueType="string"/>
+								<option id="compiler.option.preprocessdefs.1292717566" name="Preprocessor definitions (-D):" superClass="compiler.option.preprocessdefs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="CORE0"/>
+									<listOptionValue builtIn="false" value="NDEBUG"/>
+									<listOptionValue builtIn="false" value="ADI_MCAPI"/>
+									<listOptionValue builtIn="false" value="ADI_UCOS3_PRODUCT"/>
+									<listOptionValue builtIn="false" value="ADI_USE_UCOS3_SOURCE"/>
+								</option>
+								<option id="compiler.option.additionaldirectories.82600051" name="Additional include directories (-I):" superClass="compiler.option.additionaldirectories" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/system}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uC-Common/GeneratedSources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uC-CPU/GeneratedSources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCCPU_1_1_0_LOC}/common/uC-CPU&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uC-LIB/GeneratedSources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCLIB_1_1_0_LOC}/common/uC-LIB&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCCPU_1_1_0_LOC}/Blackfin/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCOS3_1_1_0_LOC}/Blackfin/uCOS-III/Ports&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uCOS-III/Cfg&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/system/uCOS-III/GeneratedSources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCOS3_1_1_0_LOC}/common/uCOS-III&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCOS3_1_1_0_LOC}/common/uCOS-III/Source&quot;"/>
+								</option>
+								<option id="compiler.option.threads.1997860435" name="Enable toolchain RTOS support (-threads)" superClass="compiler.option.threads" value="true" valueType="boolean"/>
+								<inputType id="compiler.inputType.1326019275" name="C/C++ Source" superClass="compiler.inputType"/>
+							</tool>
+							<tool id="blackfin.toolchain.linker.1062641703" name="CrossCore Blackfin Linker" superClass="blackfin.toolchain.linker">
+								<option defaultValue="true" id="linker.option.individmap.856898469" name="Individually map functions and data items (-ip)" superClass="linker.option.individmap" valueType="boolean"/>
+								<option id="linker.option.eliminateunused.468323617" name="Eliminate unused objects (-e)" superClass="linker.option.eliminateunused" value="true" valueType="boolean"/>
+								<option id="linker.option.usedbglib.75389383" name="Use Debug System libraries (-add-debug-libpaths)" superClass="linker.option.usedbglib" value="false" valueType="boolean"/>
+								<option id="linker.option.proc.879901359" name="-proc" superClass="linker.option.proc" value=" ADSP-BF609" valueType="string"/>
+								<option id="linker.option.sirevision.437792503" name="-si-revision" superClass="linker.option.sirevision" value=" 0.2" valueType="string"/>
+								<option id="linker.option.preprocessdefs.358326559" name="Preprocessor definitions (-MD)" superClass="linker.option.preprocessdefs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="CORE0"/>
+									<listOptionValue builtIn="false" value="RELEASE"/>
+									<listOptionValue builtIn="false" value="ADI_MCAPI"/>
+									<listOptionValue builtIn="false" value="_ADI_THREADS"/>
+								</option>
+								<option id="linker.option.ldfprocessing.ldffile.1164452689" name="Custom LDF (-T)" superClass="linker.option.ldfprocessing.ldffile" value="&quot;${ProjDirPath}/system/startup_ldf/app.ldf&quot;" valueType="string"/>
+								<option id="linker.option.srchdir.1772516562" name="Library search directories (-L):" superClass="linker.option.srchdir" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${OutDir}/system/startup_ldf&quot;"/>
+								</option>
+								<option id="linker.option.component.1194623384" name="-component" superClass="linker.option.component" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCLIB_1_1_0_LOC}/libraries.xml&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${COM_ANALOG_MICRIUM_UCOS3_1_1_0_LOC}/libraries.xml&quot;"/>
+								</option>
+								<option id="blackfin.linker.option.additionaloptions.909481391" name="Additional options for the linker:" superClass="blackfin.linker.option.additionaloptions" valueType="stringList">
+									<listOptionValue builtIn="false" value="-keep _OSDbg_SchedRoundRobinEn"/>
+									<listOptionValue builtIn="false" value="-keep _OSDbg_VersionNbr"/>
+									<listOptionValue builtIn="false" value="-keep _OSFlagDbgListPtr"/>
+									<listOptionValue builtIn="false" value="-keep _OSMemDbgListPtr"/>
+									<listOptionValue builtIn="false" value="-keep _OSMutexDbgListPtr"/>
+									<listOptionValue builtIn="false" value="-keep _OSQDbgListPtr"/>
+									<listOptionValue builtIn="false" value="-keep _OSRunning"/>
+									<listOptionValue builtIn="false" value="-keep _OSSchedLockNestingCtr"/>
+									<listOptionValue builtIn="false" value="-keep _OSSemDbgListPtr"/>
+									<listOptionValue builtIn="false" value="-keep _OSTaskDbgListPtr"/>
+									<listOptionValue builtIn="false" value="-keep _OSTickCtr"/>
+									<listOptionValue builtIn="false" value="libosal_ucos3.dlb"/>
+								</option>
+								<option id="linker.option.threadsafelibraries.2008862306" name="Link against thread-safe run-time libraries (-threads)" superClass="linker.option.threadsafelibraries" value="true" valueType="boolean"/>
+								<inputType id="linker.doj.input.1908094875" name="Object Files" superClass="linker.doj.input"/>
+							</tool>
+							<tool id="blackfin.toolchain.archiver.1241308718" name="CrossCore Blackfin Archiver" superClass="blackfin.toolchain.archiver">
+								<option id="archiver.option.proc.1898418338" name="-proc" superClass="archiver.option.proc" value=" ADSP-BF609" valueType="string"/>
+								<option id="archiver.option.sirevision.477764301" name="-si-revision" superClass="archiver.option.sirevision" value=" 0.2" valueType="string"/>
+							</tool>
+							<tool id="blackfin.toolchain.loader.1058790350" name="CrossCore Blackfin Loader" superClass="blackfin.toolchain.loader">
+								<option id="loader.option.proc.250502177" name="-proc" superClass="loader.option.proc" value=" ADSP-BF609" valueType="string"/>
+								<option id="loader.option.sirevision.447595969" name="-si-revision" superClass="loader.option.sirevision" value=" 0.2" valueType="string"/>
+								<option id="blackfin.loader.option.enumerated.bootmode.837876080" name="Boot mode (-b)" superClass="blackfin.loader.option.enumerated.bootmode" value="blackfin.loader.option.boot.enumerated.memory" valueType="enumerated"/>
+								<option id="blackfin.loader.option.enumerated.progflag.1458928905" name="Programmable flag" superClass="blackfin.loader.option.enumerated.progflag"/>
+								<option id="blackfin.loader.option.enumerated.bootformat.274790320" name="Boot format (-f)" superClass="blackfin.loader.option.enumerated.bootformat" value="blackfin.loader.option.format.enumerated.binary" valueType="enumerated"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="system|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="system"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="charging-checkV0_0_Core0.blackfin.projecttype.dxe.1633323396" name="Blackfin Executable Project" projectType="blackfin.projecttype.dxe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="blackfin.toolchain.configuration.release.303135791;blackfin.toolchain.configuration.release.303135791.;blackfin.toolchain.linker.1062641703;linker.doj.input.1908094875">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.analog.crosscore.managedbuilder.core.LinkerDiscoveryProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="blackfin.toolchain.configuration.debug.902985531;blackfin.toolchain.configuration.debug.902985531.;blackfin.toolchain.compiler.129639650;compiler.inputType.134432297">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.analog.crosscore.managedbuilder.core.CompilerDiscoveryProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="blackfin.toolchain.configuration.debug.902985531;blackfin.toolchain.configuration.debug.902985531.;blackfin.toolchain.linker.566999343;linker.doj.input.995178241">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.analog.crosscore.managedbuilder.core.LinkerDiscoveryProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="blackfin.toolchain.configuration.release.303135791;blackfin.toolchain.configuration.release.303135791.;blackfin.toolchain.compiler.1184771881;compiler.inputType.1326019275">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.analog.crosscore.managedbuilder.core.CompilerDiscoveryProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="blackfin.toolchain.configuration.debug.902985531;blackfin.toolchain.configuration.debug.902985531.;blackfin.toolchain.assembler.744594742;assembler.input.247288404">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.analog.crosscore.managedbuilder.core.AssemblerDiscoveryProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="blackfin.toolchain.configuration.release.303135791;blackfin.toolchain.configuration.release.303135791.;blackfin.toolchain.assembler.1709484586;assembler.input.1538238112">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.analog.crosscore.managedbuilder.core.AssemblerDiscoveryProfile"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+		<project-mappings>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cHeader" language="org.eclipse.cdt.core.c.adi.extension"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cSource" language="org.eclipse.cdt.core.c.adi.extension"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxHeader" language="org.eclipse.cdt.core.c++.adi.extension"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxSource" language="org.eclipse.cdt.core.c++.adi.extension"/>
+		</project-mappings>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="1">
+		<resource resourceType="PROJECT" workspacePath="/charging-checkV0_0_Core0"/>
+	</storageModule>
+</cproject>

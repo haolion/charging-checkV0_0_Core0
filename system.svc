@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+	<installedComponents>
+		<component id="com.analog.crosscore.addins.ssldd.wd" name="WDT Sevice" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Watchdog Timer Service (WDT)]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.mcapi" name="Analog Devices' MCAPI for Blackfin" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of Multicore association's Multicore Communications API (MCAPI™) version 2.15]]></component-description>
+			<product name="Analog Devices implementation of Multicore Communications API (MCAPI™) v2.15" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.rsi" name="RSI Driver" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Removable Storage Interface Driver (RSI)]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.pixc" name="Pixel Compositor Driver" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Pixel Compositor driver]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.pwm" name="PWM Service" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Pulse-Width Modulation Service (PWM)]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.tru" name="TRU Service" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Trigger Routing Unit (TRU) service]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.stdio" name="STDIO Service" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the STDIO Service]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.counter" name="Rotary Counter Driver" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Rotary Counter Device Driver]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.vss" name="VSS Driver" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Video Subsystem API (VSS)]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.pwr" name="PWR Sevice" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Power Service (PWR)]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.linkport" name="Link Port Driver" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Link Port driver]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.tmr" name="TMR Service" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the General-Purpose Timer Service (TMR)]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.ppi.base" name="PPI Driver Base" version="1.0.0" visible="false">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the PPI driver]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.usbh" name="USB Host Controller Driver" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the USB Host device driver]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.micrium.uclib.blackfin" name="uC-LIB for Blackfin" version="1.1.0" visible="false">
+			<component-description><![CDATA[This component provides ADI's implementation of Micrium μC-LIB required for multiple Micrium's products.]]></component-description>
+			<product name="Micrium uC-LIB v1.38.00" version="1.1.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.spi.base" name="SPI Driver Base" version="1.0.0" visible="false">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Serial Peripheral Interface driver (SPI)]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.gpio" name="GPIO Driver" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the General-Purpose input/output Port Driver (GPIO)]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.micrium.uccpu" name="uC-CPU" version="1.1.0" visible="false">
+			<component-description><![CDATA[This component provides ADI's implementation of Micrium μC-CPU required for multiple Micrium's products.]]></component-description>
+			<product name="Micrium uC-CPU v1.30.01" version="1.1.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.counter.base" name="Rotary Counter Driver Base" version="1.0.0" visible="false">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Rotary Counter Device Driver]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.spi" name="SPI Driver" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Serial Peripheral Interface driver (SPI)]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.twi.base" name="TWI Driver Base" version="1.0.0" visible="false">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Two Wire Interface Driver (TWI)]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.ctmr" name="CTMR Service" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Core Timer Service (CTMR)]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.usbd.bf60x" name="USB Device Controller Driver" version="1.1.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the usb device device driver for ADSP-BF60x processors]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.acm" name="ACM Service" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Analog Control Module Service (ACM)]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.sourcegen.component.startup_ldf" name="Startup Code/LDF" version="1.0.0" visible="true">
+			<component-description><![CDATA[This component provides the ability to generate Startup Code and LDF source files. Startup code is a procedure that initializes and configures the processor when execution jumps to the "start" address on reset.
+It sets the machine into a known state, initializes selected features, and enables the standard runtime-model.
+A Linker Description File (LDF) defines the target memory map and the placement of program sections within processor memory.
+It provides information needed to link your code. It can be used to configure memory related options, such as the placement of the system heap, system stack, and external memory.]]></component-description>
+			<product name="Startup Code/LDF" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.pvp" name="PVP Driver" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Pipelined Vision Processor Driver (PVP)]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.sport" name="SPORT Driver" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Serial Port Interface Driver (SPORT)]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.crc" name="CRC Driver" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Cyclic Redundancy Check (CRC) Peripheral Driver
+ driver]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.uart" name="UART Driver" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the UART Interface driver]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.usbd.base" name="USB Device Controller Driver Base" version="1.1.0" visible="false">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the USB Device device driver]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.micrium.uclib" name="uC-LIB" version="1.1.0" visible="false">
+			<component-description><![CDATA[This component provides ADI's implementation of Micrium μC-LIB required for multiple Micrium's products.]]></component-description>
+			<product name="Micrium uC-LIB v1.38.00" version="1.1.0"/>
+		</component>
+		<component id="com.analog.micrium.uccpu.blackfin" name="uC-CPU for Blackfin" version="1.1.0" visible="false">
+			<component-description><![CDATA[This component provides ADI's implementation of Micrium μC-CPU required for multiple Micrium's products.]]></component-description>
+			<product name="Micrium uC-CPU v1.30.01" version="1.1.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.ethernet.bf60x" name="Ethernet Driver" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the ethernet driver for ADSP-BF60x processors]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.ssldd.pinmux.component" name="Pin Multiplexing" version="1.0.0" visible="true">
+			<component-description><![CDATA[Since Blackfin processors have more peripherals than physical pins on the chip, the user needs to configure which peripherals they want enabled and onto which set of pins.  Peripheral configuration requires an in-depth understanding of the hardware.  This component makes it easier to program the peripherals without worrying about the internal details.  The user simply selects the peripherals to enable and this component will generate the C code necessary to configure the peripherals.]]></component-description>
+			<product name="SSL DD Product" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.ppi" name="PPI Driver" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the PPI driver]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.twi" name="TWI Driver" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Two Wire Interface Driver (TWI)]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.micrium.ucos3.blackfin" name="uCOS-III for Blackfin" version="1.1.0" visible="true">
+			<component-description><![CDATA[This component provides ADI's implementation of Micrium μC/OS-III RTOS and configuration utilities.]]></component-description>
+			<product name="Micrium uC/OS-III v3.04.04" version="1.1.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.sport.base" name="SPORT Driver Base" version="1.0.0" visible="false">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the Serial Port Interface Driver (SPORT)]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.crosscore.addins.ssldd.dma" name="DMA Sevice" version="1.0.0" visible="true">
+			<component-description><![CDATA[This add-in provides Analog Devices' implementation of the DMA Service]]></component-description>
+			<product name="Analog Devices Device Drivers for Blackfin" version="1.0.0"/>
+		</component>
+		<component id="com.analog.micrium.ucapp" name="uC-APP" version="1.1.0" visible="false">
+			<component-description><![CDATA[This component provides ADI's implementation of Micrium μC-APP required for multiple Micrium's products.]]></component-description>
+			<product name="Micrium uC-LIB v1.38.00" version="1.1.0"/>
+		</component>
+		<component id="com.analog.micrium.ucos3" name="uCOS-III" version="1.1.0" visible="false">
+			<component-description><![CDATA[This component provides ADI's implementation of Micrium μC/OS-III RTOS and configuration utilities.]]></component-description>
+			<product name="Micrium uC/OS-III v3.04.04" version="1.1.0"/>
+		</component>
+	</installedComponents>
+	<configurations>
+		<configuration id="com.analog.crosscore.addins.mcapi">
+			<mcapi-configuration>
+				<schema>1.0</schema>
+				<mcapi-config-node-id>0</mcapi-config-node-id>
+				<mcapi-config-num-endpoints>24</mcapi-config-num-endpoints>
+				<mcapi-config-anon-endpoints>8</mcapi-config-anon-endpoints>
+				<mcapi-config-max-payload-size>256</mcapi-config-max-payload-size>
+				<mcapi-config-num-transmit-buffers>4</mcapi-config-num-transmit-buffers>
+				<mcapi-config-num-receive-buffers>1</mcapi-config-num-receive-buffers>
+				<mcapi-config-num-api-requests>31</mcapi-config-num-api-requests>
+				<mcapi-config-num-isr-requests>16</mcapi-config-num-isr-requests>
+			</mcapi-configuration>
+		</configuration>
+		<configuration id="com.analog.micrium.uccpu">
+			<uccpu-configuration>
+				<adi-bf707-uccpu-rom-used>0</adi-bf707-uccpu-rom-used>
+				<schema>1.0</schema>
+				<cpu-cfg-name-en>0</cpu-cfg-name-en>
+				<cpu-cfg-name-size>16</cpu-cfg-name-size>
+				<cpu-cfg-int-dis-meas-en>0</cpu-cfg-int-dis-meas-en>
+				<cpu-cfg-int-dis-meas-ovrhd-nbr>1</cpu-cfg-int-dis-meas-ovrhd-nbr>
+				<cpu-cfg-lead-zeros-asm-present>0</cpu-cfg-lead-zeros-asm-present>
+				<cpu-cfg-trail-zeros-asm-present>0</cpu-cfg-trail-zeros-asm-present>
+				<cpu-cfg-ts-32-en>0</cpu-cfg-ts-32-en>
+			</uccpu-configuration>
+		</configuration>
+		<configuration id="com.analog.sourcegen.component.startup_ldf">
+			<startup_ldf-configuration>
+				<crt_and_ldf>
+					<propertygroup name="template_schemas" value="true">
+						<property name="ldf_schema" value="1.24"/>
+						<property name="startup_code_schema" value="17"/>
+					</propertygroup>
+					<propertygroup name="mandatory">
+						<property name="si_revision" value="0.2"/>
+						<property name="processor" value="ADSP-BF609"/>
+						<property name="product_name" value="CrossCore Embedded Studio"/>
+						<property name="crt_doj" value="app_startup.doj"/>
+						<property name="crt_output" value="app_startup.s"/>
+						<property name="ldf_output" value="app.ldf"/>
+					</propertygroup>
+					<crt>
+						<propertygroup name="cplb_init" value="true">
+							<property name="cplb_src_file" value="app_cplbtab.c"/>
+							<property name="cplb_ctrl" value="56"/>
+							<property name="cplb_obj_file" value="app_cplbtab.doj"/>
+							<property name="dcache_dcbs" value="unset"/>
+							<property name="cplb_src_alt" value="false"/>
+						</propertygroup>
+						<propertygroup name="mem_init" value="false"/>
+						<propertygroup name="use_multicores" value="2">
+							<property name="use_core" value="coreA"/>
+						</propertygroup>
+						<propertygroup name="int_handlers" value="96">
+							<property name="int_handler_table_mem" value="L1"/>
+							<property name="int_handler_table_section" value="L1_data"/>
+						</propertygroup>
+						<property name="main_never_returns" value="false"/>
+						<property name="use_mt" value="true"/>
+						<property name="init_regs" value="false"/>
+						<property name="zero_return_regs" value="false"/>
+						<property name="using_cplusplus" value="true"/>
+						<property name="use_argv" value="false"/>
+						<property name="use_profiling" value="false"/>
+						<property name="use_default_handlers" value="true"/>
+						<property name="use_user_mod_crt" value="true"/>
+						<property name="use_custom_vector" value="false"/>
+						<property name="dcache_config" value="disable_dcache_and_enable_cplb"/>
+						<property name="detect_stackoverflow" value="false"/>
+						<property name="device_init" value="true"/>
+						<property name="icache_config" value="disable_icache_and_enable_cplb"/>
+					</crt>
+					<ldf>
+						<propertygroup name="use_sdram" value="true">
+							<property name="partitioned" value="default"/>
+							<property name="size" value="128"/>
+							<property name="size_units" value="MB"/>
+						</propertygroup>
+						<propertygroup name="system_heap" value="L1">
+							<property name="min_size" value="2"/>
+							<property name="size_units" value="kB"/>
+							<property name="customized" value="false"/>
+						</propertygroup>
+						<propertygroup name="system_stack" value="L1">
+							<property name="size_units" value="kB"/>
+							<property name="customized" value="false"/>
+							<property name="min_size" value="2"/>
+						</propertygroup>
+						<propertygroup name="running_from_internal_memory" value="true"/>
+						<propertygroup name="libraries" value="true">
+							<property name="use_fileio_libs" value="false"/>
+							<property name="heap_dbg_libs" value="false"/>
+							<property name="use_eh_enabled_libs" value="false"/>
+							<property name="use_fixed_point_io_libs" value="false"/>
+							<property name="use_utility_rom" value="false"/>
+						</propertygroup>
+						<propertygroup name="user_heap_MyHeap" value="L3">
+							<property name="heap_id" value="1"/>
+							<property name="size" value="15"/>
+							<property name="heap_name" value="MyHeap"/>
+							<property name="size_units" value="MB"/>
+						</propertygroup>
+						<propertygroup name="user_heap_MyHeap2" value="L3">
+							<property name="size_units" value="MB"/>
+							<property name="heap_name" value="MyHeap2"/>
+							<property name="min_size" value="1"/>
+							<property name="heap_id" value="2"/>
+						</propertygroup>
+						<property name="use_eh" value="true"/>
+						<property name="user_heap_src_file" value="app_heaptab.c"/>
+						<property name="use_full_cpplib" value="false"/>
+						<property name="use_software_modules" value="false"/>
+						<property name="use_user_mod_ldf" value="true"/>
+						<property name="use_pgo_hw" value="false"/>
+					</ldf>
+				</crt_and_ldf>
+			</startup_ldf-configuration>
+		</configuration>
+		<configuration id="com.analog.micrium.uclib">
+			<uclib-configuration>
+				<adi-bf707-uclib-rom-used>0</adi-bf707-uclib-rom-used>
+				<schema>1.0</schema>
+				<lib-mem-cfg-arg-chk-ext-en>0</lib-mem-cfg-arg-chk-ext-en>
+				<lib-mem-cfg-alloc-en>1</lib-mem-cfg-alloc-en>
+				<lib-mem-cfg-heap-size>8192</lib-mem-cfg-heap-size>
+				<lib-mem-cfg-heap-base-addr>0x4</lib-mem-cfg-heap-base-addr>
+				<lib-mem-cfg-mem-dbg-en>0</lib-mem-cfg-mem-dbg-en>
+				<lib-mem-cfg-heap-padding-align>1</lib-mem-cfg-heap-padding-align>
+				<lib-str-cfg-fp-en>0</lib-str-cfg-fp-en>
+				<lib-str-cfg-fp-max-nbr-dig-sig>7</lib-str-cfg-fp-max-nbr-dig-sig>
+			</uclib-configuration>
+		</configuration>
+		<configuration id="com.analog.micrium.ucapp">
+			<ucapp-configuration>
+				<schema>1.0</schema>
+				<app-cfg-trace-level>0</app-cfg-trace-level>
+			</ucapp-configuration>
+		</configuration>
+		<configuration id="com.analog.micrium.ucos3">
+			<ucos-configuration>
+				<schema>1.0</schema>
+				<adi-bf707-ucos3-rom-used>0</adi-bf707-ucos3-rom-used>
+				<os-cfg-arg-chk-en>1</os-cfg-arg-chk-en>
+				<os-cfg-called-from-isr-chk-en>1</os-cfg-called-from-isr-chk-en>
+				<os-cfg-dbg-en>1</os-cfg-dbg-en>
+				<os-cfg-obj-type-chk-en>1</os-cfg-obj-type-chk-en>
+				<os-cfg-stat-task-en>0</os-cfg-stat-task-en>
+				<os-cfg-stat-task-stk-chk-en>0</os-cfg-stat-task-stk-chk-en>
+				<os-cfg-stat-task-prio>11</os-cfg-stat-task-prio>
+				<os-cfg-stat-task-rate-hz>0</os-cfg-stat-task-rate-hz>
+				<os-cfg-stat-task-stk-size>512</os-cfg-stat-task-stk-size>
+				<os-cfg-flag-en>1</os-cfg-flag-en>
+				<os-cfg-flag-del-en>1</os-cfg-flag-del-en>
+				<os-cfg-flag-pend-abort-en>1</os-cfg-flag-pend-abort-en>
+				<os-cfg-flag-mode-clr-en>1</os-cfg-flag-mode-clr-en>
+				<os-cfg-mutex-en>1</os-cfg-mutex-en>
+				<os-cfg-mutex-del-en>1</os-cfg-mutex-del-en>
+				<os-cfg-mutex-pend-abort-en>1</os-cfg-mutex-pend-abort-en>
+				<os-cfg-q-en>1</os-cfg-q-en>
+				<os-cfg-q-del-en>1</os-cfg-q-del-en>
+				<os-cfg-q-pend-abort-en>1</os-cfg-q-pend-abort-en>
+				<os-cfg-q-flush-en>1</os-cfg-q-flush-en>
+				<os-cfg-sem-en>1</os-cfg-sem-en>
+				<os-cfg-sem-del-en>1</os-cfg-sem-del-en>
+				<os-cfg-sem-pend-abort-en>1</os-cfg-sem-pend-abort-en>
+				<os-cfg-sem-set-en>1</os-cfg-sem-set-en>
+				<os-cfg-app-hooks-en>0</os-cfg-app-hooks-en>
+				<os-cfg-isr-post-deferred-en>0</os-cfg-isr-post-deferred-en>
+				<os-cfg-ts-en>0</os-cfg-ts-en>
+				<os-cfg-pend-multi-en>1</os-cfg-pend-multi-en>
+				<os-cfg-sched-lock-time-meas-en>0</os-cfg-sched-lock-time-meas-en>
+				<os-cfg-sched-round-robin-en>0</os-cfg-sched-round-robin-en>
+				<os-cfg-mem-en>1</os-cfg-mem-en>
+				<os-cfg-time-dly-hmsm-en>1</os-cfg-time-dly-hmsm-en>
+				<os-cfg-time-dly-resume-en>1</os-cfg-time-dly-resume-en>
+				<os-cfg-stk-size-min>32</os-cfg-stk-size-min>
+				<os-cfg-task-change-prio-en>1</os-cfg-task-change-prio-en>
+				<os-cfg-task-del-en>1</os-cfg-task-del-en>
+				<os-cfg-task-q-en>1</os-cfg-task-q-en>
+				<os-cfg-task-q-pend-abort-en>1</os-cfg-task-q-pend-abort-en>
+				<os-cfg-task-profile-en>0</os-cfg-task-profile-en>
+				<os-cfg-task-sem-pend-abort-en>1</os-cfg-task-sem-pend-abort-en>
+				<os-cfg-task-suspend-en>1</os-cfg-task-suspend-en>
+				<os-cfg-prio-max>32</os-cfg-prio-max>
+				<os-cfg-task-reg-tbl-size>1</os-cfg-task-reg-tbl-size>
+				<os-cfg-tls-tbl-size>2</os-cfg-tls-tbl-size>
+				<os-cfg-msg-pool-size>1</os-cfg-msg-pool-size>
+				<adi-cfg-use-isr-stack>0</adi-cfg-use-isr-stack>
+				<os-cfg-isr-stk-size>512</os-cfg-isr-stk-size>
+				<os-cfg-task-stk-limit-pct-empty>0</os-cfg-task-stk-limit-pct-empty>
+				<os-cfg-idle-task-stk-size>512</os-cfg-idle-task-stk-size>
+				<os-cfg-int-q-size>2</os-cfg-int-q-size>
+				<os-cfg-int-q-task-stk-size>512</os-cfg-int-q-task-stk-size>
+				<os-cfg-tmr-en>0</os-cfg-tmr-en>
+				<os-cfg-tmr-del-en>1</os-cfg-tmr-del-en>
+				<os-cfg-tmr-task-prio>29</os-cfg-tmr-task-prio>
+				<os-cfg-tmr-task-rate-hz>100</os-cfg-tmr-task-rate-hz>
+				<os-cfg-tmr-task-stk-size>512</os-cfg-tmr-task-stk-size>
+				<os-cfg-tmr-wheel-size>17</os-cfg-tmr-wheel-size>
+				<adi-cfg-core-tmr-en>1</adi-cfg-core-tmr-en>
+				<adi-cfg-core-tmr-count>500000</adi-cfg-core-tmr-count>
+				<os-cfg-tick-rate-hz>1000</os-cfg-tick-rate-hz>
+				<os-cfg-tick-task-prio>28</os-cfg-tick-task-prio>
+				<os-cfg-tick-task-stk-size>512</os-cfg-tick-task-stk-size>
+				<os-cfg-tick-wheel-size>17</os-cfg-tick-wheel-size>
+			</ucos-configuration>
+		</configuration>
+		<configuration id="com.analog.crosscore.ssldd.pinmux.component">
+			<pinmux-configuration processor="ADSP-BF609" version="1.0">
+				<peripheral description="SPI Module" name="SPI0">
+					<signal bit="8" mux="0" name="CLK" pin="4" port="D"/>
+					<signal bit="4" mux="0" name="MISO" pin="2" port="D"/>
+					<signal bit="6" mux="0" name="MOSI" pin="3" port="D"/>
+					<signal bit="22" mux="0" name="SEL1" pin="11" port="D"/>
+				</peripheral>
+				<peripheral description="SPI Module" name="SPI1">
+					<signal bit="10" mux="0" name="CLK" pin="5" port="D"/>
+					<signal bit="28" mux="0" name="MISO" pin="14" port="D"/>
+					<signal bit="26" mux="0" name="MOSI" pin="13" port="D"/>
+					<signal bit="20" mux="2" name="SEL3" pin="10" port="D"/>
+				</peripheral>
+				<gpio name="Port D">
+					<signal bit="4" name="PD02" pin="2" port="D"/>
+					<signal bit="6" name="PD03" pin="3" port="D"/>
+					<signal bit="8" name="PD04" pin="4" port="D"/>
+					<signal bit="10" name="PD05" pin="5" port="D"/>
+					<signal bit="20" name="PD10" pin="10" port="D"/>
+					<signal bit="22" name="PD11" pin="11" port="D"/>
+					<signal bit="26" name="PD13" pin="13" port="D"/>
+					<signal bit="28" name="PD14" pin="14" port="D"/>
+				</gpio>
+			</pinmux-configuration>
+		</configuration>
+	</configurations>
+</root>

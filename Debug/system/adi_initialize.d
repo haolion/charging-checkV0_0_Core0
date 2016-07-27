@@ -1,0 +1,33 @@
+system/adi_initialize.doj: ../system/adi_initialize.c
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/sys/platform.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/sys/_adi_platform.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/cdefBF609.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/stdint.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/yvals.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/defBF609.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/ccblkfn.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/stdlib.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/stdlib_bf.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/builtins.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/sys/builtins_support.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/builtins.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/sys/builtins_support.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/fract_typedef.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/fr2x16_typedef.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/r2x16_typedef.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/raw_typedef.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/i2x16_typedef.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/complex_typedef.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/sys/anomaly_macros_rtl.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/sys/platform.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/sys/mc_typedef.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/services/int/adi_sec.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/stdbool.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/services/int/adi_int.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/services/int/adi_int_id.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/interrupt.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/sys/exception.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/sys/anomaly_macros_rtl.h
+system/adi_initialize.doj: ../system/adi_initialize.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/services/gpio/adi_gpio.h
+system/adi_initialize.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/services/gpio/adi_gpio_pint.h

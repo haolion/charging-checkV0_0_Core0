@@ -1,0 +1,23 @@
+system/pinmux/GeneratedSources/pinmux_config.doj: ../system/pinmux/GeneratedSources/pinmux_config.c
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/sys/platform.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/sys/_adi_platform.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/cdefBF609.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/stdint.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/yvals.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/defBF609.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/ccblkfn.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/stdlib.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/stdlib_bf.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/builtins.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/sys/builtins_support.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/builtins.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/sys/builtins_support.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/fract_typedef.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/fr2x16_typedef.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/r2x16_typedef.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/raw_typedef.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/i2x16_typedef.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/complex_typedef.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/sys/anomaly_macros_rtl.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/sys/platform.h
+system/pinmux/GeneratedSources/pinmux_config.doj: C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 1.1.1/Blackfin/include/sys/mc_typedef.h
