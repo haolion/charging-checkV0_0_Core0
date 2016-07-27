@@ -38,6 +38,8 @@
 
 //调试串口之后另开辟一函数
 
+//git测试
+
 //需要发送的波形数据的长度
 #define	WaveDataPointNumSend	256
 
